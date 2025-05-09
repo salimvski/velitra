@@ -3,7 +3,7 @@
 import React from "react";
 import Link from "next/link";
 
-const CtaAreaTwo: React.FC = () => {
+const CtaAreaWebDesign: React.FC = () => {
   return (
     <>
       <div className="cta-area-two ptb-100">
@@ -14,14 +14,14 @@ const CtaAreaTwo: React.FC = () => {
               data-aos-duration="1000"
               data-aos-delay="100"
             >
-              So What is Next?
+              Let’s Build Your Next Website
             </span>
             <h3
               data-aos="fade-in"
               data-aos-duration="1000"
               data-aos-delay="200"
             >
-              Want to rank higher and reach more customers? Let’s talk SEO.
+              Looking for a website that’s fast, elegant, and built to convert?
             </h3>
           </div>
 
@@ -32,7 +32,7 @@ const CtaAreaTwo: React.FC = () => {
             data-aos-delay="300"
           >
             <Link href="/contact-us/" className="custom-btn">
-              Get Your Free SEO Audit
+              Let’s Talk Web Design
             </Link>
           </div>
         </div>
@@ -41,4 +41,4 @@ const CtaAreaTwo: React.FC = () => {
   );
 };
 
-export default CtaAreaTwo;
+export default CtaAreaWebDesign;

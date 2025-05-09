@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import FsLightbox from "fslightbox-react";
 import Image from "next/image";
 
-import singleServiceImg from "../../../public/images/services/marketing-banner.svg";
+import singleServiceImg from "../../../public/images/services/seo-banner.png";
 
 const ServiceDetailsContent: React.FC = () => {
   const [toggler, setToggler] = useState(false);
@@ -12,7 +12,7 @@ const ServiceDetailsContent: React.FC = () => {
     <>
       <FsLightbox
         toggler={toggler}
-        sources={["https://www.youtube.com/watch?v=vzdA66d6xDs"]}
+        sources={["https://www.youtube.com/watch?v=MYE6T_gd7H0"]}
       />
 
       <div className="services-details-area ptb-100">

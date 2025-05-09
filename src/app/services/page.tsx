@@ -11,7 +11,7 @@ export default function Page() {
       <NavbarTwo />
 
       <PageBanner
-        pageTitle="Services Style 4"
+        pageTitle="Grow With Our Expertise"
         BGImage="/images/page-banner4.jpg"
       />
 

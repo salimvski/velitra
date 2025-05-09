@@ -6,75 +6,19 @@ import Link from "next/link";
 const servicesData = [
   {
     iconName: "pe-7s-comment bg-13c4a1",
-    title: "Business Consultancy",
+    title: "Search Engine Optimization (SEO)",
     shortText:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
-    viewDetails: "/services/service-details/",
+      "We improve your Google rankings with targeted SEO strategies — including technical optimization, keyword research, and link building — to help you get found by the right people.",
+    viewDetails: "/services/seo/",
     aosDelay: "100",
   },
   {
     iconName: "pe-7s-display2 bg-6610f2",
-    title: "Web Development",
+    title: "Web Design & Development",
     shortText:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
-    viewDetails: "/services/service-details/",
+      "We build fast, mobile-responsive, and visually stunning websites that reflect your brand and drive real conversions. Every design is optimized for both user experience and SEO.",
+    viewDetails: "/services/web-design/",
     aosDelay: "200",
-  },
-  {
-    iconName: "pe-7s-light bg-ffb700",
-    title: "Digital Marketing",
-    shortText:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
-    viewDetails: "/services/service-details/",
-    aosDelay: "300",
-  },
-  {
-    iconName: "pe-7s-phone bg-fc3549",
-    title: "Mobile App Development",
-    shortText:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
-    viewDetails: "/services/service-details/",
-    aosDelay: "400",
-  },
-  {
-    iconName: "pe-7s-cart bg-00d280",
-    title: "eCommerce Development",
-    shortText:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
-    viewDetails: "/services/service-details/",
-    aosDelay: "500",
-  },
-  {
-    iconName: "pe-7s-users bg-ff612f",
-    title: "Marketing & Reporting",
-    shortText:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
-    viewDetails: "/services/service-details/",
-    aosDelay: "600",
-  },
-  {
-    iconName: "pe-7s-headphones bg-6610f2",
-    title: "IT Consultancy",
-    shortText:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
-    viewDetails: "/services/service-details/",
-    aosDelay: "700",
-  },
-  {
-    iconName: "pe-7s-users bg-13c4a1",
-    title: "Social Marketing",
-    shortText:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
-    viewDetails: "/services/service-details/",
-    aosDelay: "800",
-  },
-  {
-    iconName: "pe-7s-comment bg-fc3549",
-    title: "Admin Support",
-    shortText:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
-    viewDetails: "/services/service-details/",
-    aosDelay: "900",
   },
 ];
 

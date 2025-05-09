@@ -16,8 +16,9 @@ const CtaArea: React.FC = () => {
                 data-aos-duration="1000"
                 data-aos-delay="200"
               >
-                <h3>Have a project in mind?</h3>
-                <p>Let&apos;s get to work</p>
+                <h3>Need more traffic or a better website?</h3>
+                <p>Let’s build a digital solution that drives results.</p>
+                <p>Reach out today and grow with Velitra.</p>
               </div>
             </div>
 

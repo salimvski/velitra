@@ -5,7 +5,17 @@ export const menus = [
 	},
 	{
 		label: "Services",
-		link: "/services/",
+		link: "#",
+		submenu: [
+			{
+				label: "SEO",
+				link: "/services/seo",
+			},
+			{
+				label: "Web Design",
+				link: "/services/web-design/",
+			},
+		],
 	},
   {
 		label: "About us",
