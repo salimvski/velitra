@@ -7,25 +7,25 @@ import Image from "next/image";
 const ourServicesData = [
   {
     image: "/images/digital-marketing/services-img1.jpg",
-    title: "Digital Marketing",
+    title: "SEO (Search Engine Optimization)",
     shortText:
-      "Lorem ipsum dolor sit amet, consectetur elit adipiscing labore et dolore magna aliqua.",
+      "We help you rank higher in Google, attract qualified traffic, and convert visitors through on-page optimization, keyword strategy, and technical SEO audits.",
     viewDetailsLink: "/services/service-details/",
     aosDelay: "100",
   },
   {
     image: "/images/digital-marketing/services-img2.jpg",
-    title: "Strategy & Planning",
+    title: "Website Design & Development",
     shortText:
-      "Lorem ipsum dolor sit amet, consectetur elit adipiscing labore et dolore magna aliqua.",
+      "Our web design team creates visually stunning, high-performing websites built for fast loading, mobile responsiveness, and optimal UX.",
     viewDetailsLink: "/services/service-details/",
     aosDelay: "200",
   },
   {
     image: "/images/digital-marketing/services-img3.jpg",
-    title: "Search Engine Optimization",
+    title: "Strategy & Planning",
     shortText:
-      "Lorem ipsum dolor sit amet, consectetur elit adipiscing labore et dolore magna aliqua.",
+      "We align SEO and web goals with your business objectives, ensuring every dollar you spend contributes to measurable growth and long-term ROI.",
     viewDetailsLink: "/services/service-details/",
     aosDelay: "300",
   },
@@ -38,7 +38,7 @@ const OurServices: React.FC = () => {
         <div className="container">
           <div className="section-title">
             <span className="sub-title">WHAT WE DO</span>
-            <h2>All The Services That We Provide to Our Clients</h2>
+            <h2>Specialized SEO & Web Design Services</h2>
           </div>
 
           <div className="row justify-content-center">

@@ -30,23 +30,23 @@ export default function Page() {
 
       <FunFacts />
 
-      <CaseStudies />
+      {/* <CaseStudies /> */}
 
-      <Testimonials />
+      {/* <Testimonials /> */}
 
-      <PricingPlans />
+      {/* <PricingPlans /> */}
 
-      <CtaArea />
+      {/* <CtaArea /> */}
 
-      <TeamMember />
+      {/* <TeamMember /> */}
 
-      <LatestNews />
+      {/* <LatestNews /> */}
 
       <Partner />
 
-      <div className="pb-100">
+      {/* <div className="pb-100">
         <Newsletter />
-      </div>
+      </div> */}
 
       <Footer />
     </>

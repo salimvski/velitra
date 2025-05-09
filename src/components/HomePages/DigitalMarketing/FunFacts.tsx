@@ -8,25 +8,25 @@ import borderImg from "../../../../public/images/digital-marketing/border1.png";
 const funFactsData = [
   {
     iconName: "fa-solid fa-list-check",
-    number: "2546",
+    number: "5",
     title: "Project Complate",
     aosDelay: "100",
   },
   {
     iconName: "fa-solid fa-users",
-    number: "2495",
+    number: "5",
     title: "Happy Clients",
     aosDelay: "200",
   },
   {
     iconName: "fa-solid fa-people-group",
-    number: "172",
+    number: "2",
     title: "Qualified Staffs",
     aosDelay: "300",
   },
   {
     iconName: "fa-solid fa-trophy",
-    number: "07",
+    number: "01",
     title: "Winning Awards",
     aosDelay: "400",
   },

@@ -21,7 +21,7 @@ const MainBanner: React.FC = () => {
                   data-aos-duration="1000"
                   data-aos-delay="100"
                 >
-                  MARKETING AGENCY
+                  SEO & Web Design Agency
                 </span>
 
                 <h1
@@ -29,7 +29,7 @@ const MainBanner: React.FC = () => {
                   data-aos-duration="1000"
                   data-aos-delay="200"
                 >
-                  We Help You Take Your Business to The Next Level
+                  Boost Your Visibility. Elevate Your Brand.
                 </h1>
 
                 <p
@@ -37,8 +37,7 @@ const MainBanner: React.FC = () => {
                   data-aos-duration="1000"
                   data-aos-delay="300"
                 >
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  At Velitra, we specialize in advanced SEO strategies and custom web design to help you rank higher, attract more traffic, and grow faster online.
                 </p>
 
                 <Link
@@ -48,7 +47,7 @@ const MainBanner: React.FC = () => {
                   data-aos-duration="1000"
                   data-aos-delay="400"
                 >
-                  Contact Us <i className="fas fa-chevron-right"></i>
+                  Get a Free Consultation <i className="fas fa-chevron-right"></i>
                 </Link>
               </div>
             </div>

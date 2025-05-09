@@ -35,24 +35,21 @@ const AboutContent: React.FC = () => {
                 data-aos-duration="1000"
                 data-aos-delay="200"
               >
-                <span className="sub-title">ABOUT US</span>
+                <span className="sub-title">ABOUT VELITRA</span>
                 <h2>
-                  We offer the World&apos;s Best <b>Digital Marketing</b> Services!
+                  We Build SEO-Optimized Websites That Get Results!
                 </h2>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
+                Velitra is a specialized SEO and web design studio focused on delivering measurable results. Our team combines search engine expertise with user-centered design to help businesses dominate search rankings and delight their visitors.
                 </p>
 
                 <div className="row">
                   <div className="col-lg-6">
                     <div className="box">
                       <i className="fa-solid fa-check"></i>
-                      <h3>Global Reach</h3>
+                      <h3>Data-Driven SEO</h3>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Every strategy we build is rooted in research, performance tracking, and continuous refinement to keep you ahead of the competition.
                       </p>
                     </div>
                   </div>
@@ -60,9 +57,9 @@ const AboutContent: React.FC = () => {
                   <div className="col-lg-6">
                     <div className="box">
                       <i className="fa-solid fa-check"></i>
-                      <h3>Excellence Track Record</h3>
+                      <h3>Pixel-Perfect Design</h3>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        We design sleek, responsive websites tailored to your brand and optimized for speed, UX, and mobile-first indexing.
                       </p>
                     </div>
                   </div>
@@ -70,9 +67,9 @@ const AboutContent: React.FC = () => {
                   <div className="col-lg-6">
                     <div className="box">
                       <i className="fa-solid fa-check"></i>
-                      <h3>High-End Anaylizing</h3>
+                      <h3>Real-World Results</h3>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        From startups to established businesses, our clients consistently see growth in traffic, leads, and revenue.
                       </p>
                     </div>
                   </div>
@@ -80,9 +77,9 @@ const AboutContent: React.FC = () => {
                   <div className="col-lg-6">
                     <div className="box">
                       <i className="fa-solid fa-check"></i>
-                      <h3>Our Dedicated Support</h3>
+                      <h3>Reliable Support</h3>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        We’re here when you need us — from launch to long-term growth support and reporting.
                       </p>
                     </div>
                   </div>

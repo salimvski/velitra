@@ -8,43 +8,18 @@ import Image from "next/image";
 const partnersData = [
   {
     id: "1",
-    image: "/images/digital-marketing/partner1.png",
-    link: "#",
+    image: "/images/digital-marketing/theslstory_partner.jpeg",
+    link: "https://www.theslstory.com/",
   },
   {
     id: "2",
-    image: "/images/digital-marketing/partner2.png",
-    link: "#",
+    image: "/images/digital-marketing/focusco_partner.png",
+    link: "https://focusco.info/home.html",
   },
   {
     id: "3",
-    image: "/images/digital-marketing/partner3.png",
-    link: "#",
-  },
-  {
-    id: "4",
-    image: "/images/digital-marketing/partner4.png",
-    link: "#",
-  },
-  {
-    id: "5",
-    image: "/images/digital-marketing/partner5.png",
-    link: "#",
-  },
-  {
-    id: "6",
-    image: "/images/digital-marketing/partner6.png",
-    link: "#",
-  },
-  {
-    id: "7",
-    image: "/images/digital-marketing/partner4.png",
-    link: "#",
-  },
-  {
-    id: "8",
-    image: "/images/digital-marketing/partner5.png",
-    link: "#",
+    image: "/images/digital-marketing/cafeilcortile_partner.png",
+    link: "https://cafeilcortile.com/",
   },
 ];
 
@@ -54,11 +29,10 @@ const Partner: React.FC = () => {
       <div className="partner-area pb-100">
         <div className="container">
           <div className="section-title">
-            <span className="sub-title">Clients</span>
+            <span className="sub-title">Trusted by Clients Who Care About Results</span>
             <h2>Our Clients</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            From local startups to global brands, Velitra partners with ambitious companies looking to grow their digital presence. We’re proud to support businesses across industries with tailored SEO strategies and custom web design solutions that deliver real ROI.
             </p>
           </div>
 

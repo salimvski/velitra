@@ -6,23 +6,23 @@ import Image from "next/image";
 const marketingProcessData = [
   {
     image: "/images/digital-marketing/process1.png",
-    title: "Marketing Plan",
+    title: "Audit & Strategy",
     shortText:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod.",
+      "We begin with a deep analysis of your website and search visibility, then craft a personalized roadmap for SEO and design improvements.",
     aosDelay: "100",
   },
   {
     image: "/images/digital-marketing/process2.png",
-    title: "Marketing Execution",
+    title: "Execution & Optimization",
     shortText:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod.",
+      "From technical SEO to responsive web design, we build and optimize your platform for maximum reach, speed, and conversion potential.",
     aosDelay: "200",
   },
   {
     image: "/images/digital-marketing/process3.png",
-    title: "Growth & Scale",
+    title: "Growth & Monitoring",
     shortText:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod.",
+      "We scale your results through continuous optimization, detailed analytics, and monthly performance tracking tailored to your business goals.",
     aosDelay: "300",
   },
 ];
@@ -33,8 +33,8 @@ const MarketingProcess: React.FC = () => {
       <div className="dm-process-area pt-100 pb-70">
         <div className="container">
           <div className="section-title">
-            <span className="sub-title marketing-color">MARKETING PROCESS</span>
-            <h2>We Have The Main Process to Run The Marketing</h2>
+            <span className="sub-title marketing-color">OUR METHOD</span>
+            <h2>How We Deliver Measurable Digital Growth</h2>
           </div>
 
           <div className="row justify-content-center">
