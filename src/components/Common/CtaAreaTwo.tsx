@@ -21,7 +21,7 @@ const CtaAreaTwo: React.FC = () => {
               data-aos-duration="1000"
               data-aos-delay="200"
             >
-              Want to rank higher and reach more customers? Let’s talk SEO.
+              Want to learn more about how we work? Let’s build something great together.
             </h3>
           </div>
 
@@ -32,7 +32,7 @@ const CtaAreaTwo: React.FC = () => {
             data-aos-delay="300"
           >
             <Link href="/contact-us/" className="custom-btn">
-              Get Your Free SEO Audit
+              Contact Our Team
             </Link>
           </div>
         </div>

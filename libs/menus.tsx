@@ -21,10 +21,10 @@ export const menus = [
 		label: "About us",
 		link: "/about/",
 	},
-	{
-		label: "Blog",
-		link: "/blog/",
-	},
+	// {
+	// 	label: "Blog",
+	// 	link: "/blog/",
+	// },
   {
 		label: "Contact Us",
 		link: "/contact-us/",

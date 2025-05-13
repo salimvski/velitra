@@ -6,7 +6,7 @@ import Link from "next/link";
 import MenuItem from "./MenuItem";
 import { menus } from "../../../libs/menus";
 
-import logo from "../../../public/images/logo.png";
+import logo from "../../../public/images/velitra_horizontal.png";
 
 const Navbar: React.FC = () => {
   const [menu, setMenu] = useState<boolean>(true);

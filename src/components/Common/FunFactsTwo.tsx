@@ -16,25 +16,25 @@ interface FunFact {
 const funFactsData: FunFact[] = [
   {
     iconName: "fa-solid fa-circle-check",
-    number: "980+",
+    number: "5+",
     shortText: "Completed Projects",
     aosDelay: "100",
   },
   {
     iconName: "fa-solid fa-heart",
-    number: "950+",
+    number: "5+",
     shortText: "Happy Clients",
     aosDelay: "200",
   },
   {
     iconName: "fa-solid fa-list-check",
-    number: "780+",
+    number: "2+",
     shortText: "Ongoing Projects",
     aosDelay: "300",
   },
   {
     iconName: "fa-solid fa-trophy",
-    number: "70+",
+    number: "1+",
     shortText: "Winning Awards",
     aosDelay: "400",
   },
@@ -46,11 +46,8 @@ const FunFactsTwo: React.FC = () => {
       <div className="funfacts-area ptb-100 bg-fcfbfb">
         <div className="container">
           <div className="section-title">
-            <h2>We always try to understand users expectation</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
+            <h2>Focused on Results. Built Around People.</h2>
+            <p>Meet the team behind Velitra — developers, designers, and strategists with one goal: helping you succeed online through creativity, data, and attention to detail.</p>
           </div>
 
           <div className="row justify-content-center">

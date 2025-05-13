@@ -13,13 +13,8 @@ const ContactInfo: React.FC = () => {
                 <div className="icon">
                   <i className="pe-7s-mail"></i>
                 </div>
-                <h3>Mail Here</h3>
-                <p>
-                  <a href="mailto:admin@pungent.com">admin@pungent.com</a>
-                </p>
-                <p>
-                  <a href="mailto:info@pungent.com">info@pungent.com</a>
-                </p>
+                <h3>Email</h3>
+                <p><a href="mailto:salim.elrhilani@gmail.com">salim.elrhilani@gmail.com</a></p>
               </div>
             </div>
 
@@ -28,14 +23,12 @@ const ContactInfo: React.FC = () => {
                 <div className="icon">
                   <i className="pe-7s-map-2"></i>
                 </div>
-                <h3>Visit Here</h3>
-                <p>
-                  27 Division St, New York, <br /> NY 10002, USA
-                </p>
+                <h3>Office</h3>
+                <p>Montreal, Canada</p>
               </div>
             </div>
 
-            <div className="col-lg-4 col-md-6">
+            {/* <div className="col-lg-4 col-md-6">
               <div className="contact-info-box">
                 <div className="icon">
                   <i className="pe-7s-call"></i>
@@ -48,7 +41,7 @@ const ContactInfo: React.FC = () => {
                   <a href="tel:+2414524526">+241 452 4526</a>
                 </p>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

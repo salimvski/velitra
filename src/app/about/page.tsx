@@ -22,9 +22,9 @@ export default function Page() {
 
       <TeamStyleThree />
 
-      <Feedback />
+      {/* <Feedback /> */}
 
-      <Partner />
+      {/* <Partner /> */}
 
       <CtaAreaTwo />
 
