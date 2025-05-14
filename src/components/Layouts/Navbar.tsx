@@ -6,7 +6,7 @@ import Link from "next/link";
 import MenuItem from "./MenuItem";
 import { menus } from "../../../libs/menus";
 
-import logo from "../../../public/images/velitra_horizontal.png";
+import logo from "../../../public/images/velitra_horizontal_no_bg.png";
 
 const Navbar: React.FC = () => {
   const [menu, setMenu] = useState<boolean>(true);
@@ -27,8 +27,9 @@ const Navbar: React.FC = () => {
   }, []);
 
   const classOne = menu
-    ? "collapse navbar-collapse"
-    : "collapse navbar-collapse show";
+  ? "collapse navbar-collapse"
+  : "collapse navbar-collapse show bg-white p-4 shadow-md";
+
   const classTwo = menu
     ? "navbar-toggler navbar-toggler-right collapsed"
     : "navbar-toggler navbar-toggler-right";
@@ -36,9 +37,9 @@ const Navbar: React.FC = () => {
   return (
     <>
       <div id="navbar" className="navbar-area">
-        <nav className="navbar navbar-expand-md navbar-light">
+        <nav className="navbar navbar-expand-md navbar-light" style={{ height: "70px" }}>
           <div className="container">
-            <Link href="/" className="navbar-brand">
+            <Link href="/" className="navbar-brand" style={{ height: "40px", display: "flex", alignItems: "center" }}>
               <Image src={logo} alt="logo" width={150} height={40} />
             </Link>
 
@@ -73,6 +74,7 @@ const Navbar: React.FC = () => {
             </div>
           </div>
         </nav>
+
       </div>
     </>
   );

@@ -5,7 +5,7 @@ export const menus = [
 	},
 	{
 		label: "Services",
-		link: "#",
+		link: "/services/",
 		submenu: [
 			{
 				label: "SEO",

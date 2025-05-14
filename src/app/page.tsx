@@ -32,7 +32,7 @@ export default function Page() {
 
       {/* <CaseStudies /> */}
 
-      {/* <Testimonials /> */}
+      <Testimonials />
 
       {/* <PricingPlans /> */}
 

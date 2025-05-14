@@ -6,8 +6,8 @@ import Link from "next/link";
 import MenuItem from "./MenuItem";
 import { menus } from "../../../libs/menus";
 
-import logo from "../../../public/images/logo.png";
-import whiteLogo from "../../../public/images/logo-white.png";
+import logo from "../../../public/images/velitra_horizontal_no_bg.png";
+import whiteLogo from "../../../public/images/velitra_logo_white_text.png";
 
 const NavbarTwo: React.FC = () => {
   const [menu, setMenu] = useState<boolean>(true);
@@ -39,22 +39,34 @@ const NavbarTwo: React.FC = () => {
       <div id="navbar" className="navbar-area navbar-style-2">
         <nav className="navbar navbar-expand-md navbar-light">
           <div className="container-fluid">
-            <Link href="/" className="navbar-brand">
+            <Link
+              href="/"
+              className="navbar-brand"
+              style={{
+                height: "40px",
+                display: "flex",
+                alignItems: "center",
+                overflow: "hidden",
+              }}
+            >
               <Image
                 src={logo}
                 className="black-logo"
-                alt="logo"
-                width={150}
-                height={40}
+                alt="Velitra Logo"
+                width={160}
+                height={80} // Slightly bigger for presence
+                style={{ maxHeight: "120px", width: "auto" }}
               />
               <Image
                 src={whiteLogo}
                 className="white-logo"
-                alt="logo"
-                width={150}
-                height={40}
+                alt="Velitra Logo"
+                width={160}
+                height={80}
+                style={{ maxHeight: "120px", width: "auto" }}
               />
             </Link>
+
 
             {/* Toggle navigation */}
             <button

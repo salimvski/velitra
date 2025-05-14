@@ -6,28 +6,20 @@ import Image from "next/image";
 
 const ourServicesData = [
   {
-    image: "/images/digital-marketing/services-img1.jpg",
+    image: "/images/services/marketing-banner.svg",
     title: "SEO (Search Engine Optimization)",
     shortText:
       "We help you rank higher in Google, attract qualified traffic, and convert visitors through on-page optimization, keyword strategy, and technical SEO audits.",
-    viewDetailsLink: "/services/service-details/",
+    viewDetailsLink: "/services/seo/",
     aosDelay: "100",
   },
   {
-    image: "/images/digital-marketing/services-img2.jpg",
+    image: "/images/services/web-design-banner.svg",
     title: "Website Design & Development",
     shortText:
       "Our web design team creates visually stunning, high-performing websites built for fast loading, mobile responsiveness, and optimal UX.",
-    viewDetailsLink: "/services/service-details/",
+    viewDetailsLink: "/services/web-design/",
     aosDelay: "200",
-  },
-  {
-    image: "/images/digital-marketing/services-img3.jpg",
-    title: "Strategy & Planning",
-    shortText:
-      "We align SEO and web goals with your business objectives, ensuring every dollar you spend contributes to measurable growth and long-term ROI.",
-    viewDetailsLink: "/services/service-details/",
-    aosDelay: "300",
   },
 ];
 
@@ -52,13 +44,27 @@ const OurServices: React.FC = () => {
                     data-aos-delay={value.aosDelay}
                   >
                     <Link href={value.viewDetailsLink}>
-                      <Image
-                        src={value.image}
-                        alt="image"
-                        width={600}
-                        height={630}
-                      />
+                      <div
+                        style={{
+                          width: "100%",
+                          height: "300px", // set your desired uniform height
+                          overflow: "hidden",
+                        }}
+                      >
+                        <Image
+                          src={value.image}
+                          alt="image"
+                          width={600}
+                          height={300}
+                          style={{
+                            width: "100%",
+                            height: "100%",
+                            objectFit: "cover", // or "contain" if you don't want cropping
+                          }}
+                        />
+                      </div>
                     </Link>
+
                     <div className="content">
                       <h3>
                         <Link href={value.viewDetailsLink}>{value.title}</Link>

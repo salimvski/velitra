@@ -7,36 +7,11 @@ import Image from "next/image";
 
 const feedbacskData = [
   {
-    image: "/images/digital-marketing/testimonials-img1.jpg",
-    name: "Sarah Taylor",
-    designation: "Director",
+    image: "/images/digital-marketing/testimonials-focusco.png",
+    name: "Yanis El Kohen",
+    designation: "CEO & Founder of Focus'co",
     feedbackText:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
-
-    rating: [
-      {
-        iconName: "fa-solid fa-star",
-      },
-      {
-        iconName: "fa-solid fa-star",
-      },
-      {
-        iconName: "fa-solid fa-star",
-      },
-      {
-        iconName: "fa-solid fa-star",
-      },
-      {
-        iconName: "fa-solid fa-star",
-      },
-    ],
-  },
-  {
-    image: "/images/digital-marketing/testimonials-img2.jpg",
-    name: "Richard Turner",
-    designation: "CEO & Founder",
-    feedbackText:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
+      "Salim built my website very quickly while respecting my limited budget. He worked independently and delivered a site that matched exactly what I had in mind. He combined high-quality work with affordable pricing. I highly recommend him.",
 
     rating: [
       {

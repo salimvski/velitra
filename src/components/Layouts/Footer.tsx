@@ -4,7 +4,7 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 
-import logo from '../../../public/images/velitra_horizontal.png';
+import logo from '../../../public/images/velitra_horizontal_no_bg.png';
 
 const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
@@ -16,12 +16,11 @@ const Footer: React.FC = () => {
           {/* Branding */}
           <div className="col-lg-3 col-sm-6">
             <div className="single-footer-widget" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="100">
-              <div className="logo">
-                <Link href="/">
-                  <Image src={logo} alt="Velitra Logo" width={150} height={40} />
-                </Link>
-              </div>
-
+            <div className="logo" style={{ height: "40px", display: "flex", alignItems: "center" }}>
+              <Link href="/">
+                <Image src={logo} alt="Velitra Logo" width={150} height={40} />
+              </Link>
+            </div>
               <p>
                 Velitra is a boutique agency helping businesses grow online through expert SEO services and custom web design. We turn visibility into measurable growth.
               </p>
