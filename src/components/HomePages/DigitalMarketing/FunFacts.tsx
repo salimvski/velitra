@@ -9,7 +9,7 @@ const funFactsData = [
   {
     iconName: "fa-solid fa-list-check",
     number: "5",
-    title: "Project Complate",
+    title: "Projects completed",
     aosDelay: "100",
   },
   {
