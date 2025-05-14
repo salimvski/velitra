@@ -41,7 +41,7 @@ const ServiceDetailsContent: React.FC = () => {
             <div className="col-lg-8 col-md-12">
               <div className="services-details-desc">
                 <h2>SEO Services That Drive Organic Growth</h2>
-                <p>At Velitra, we offer certified SEO services designed to improve your online visibility, drive qualified traffic, and increase conversions. Whether you're a local business or a growing brand, our approach focuses on long-term, sustainable results that align with your goals.</p>
+                <p>At Velitra, we offer certified SEO services designed to improve your online visibility, drive qualified traffic, and increase conversions. Whether you are a local business or a growing brand, our approach focuses on long-term, sustainable results that align with your goals.</p>
 
                 <p>Our methodology starts with an in-depth SEO audit — analyzing technical health, indexing issues, on-page performance, and keyword gaps. From there, we build a strategic roadmap based on your niche, competitors, and target audience.</p>
 
