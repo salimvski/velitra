@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://velitra.com
+
+# Sitemaps
+Sitemap: https://velitra.com/sitemap.xml
