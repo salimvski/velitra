@@ -60,7 +60,7 @@ const Footer: React.FC = () => {
               <ul className="get-in-touch">
                 <li><i className="fa-solid fa-location-dot"></i> Montreal, Canada</li>
                 {/* <li><i className="fa-solid fa-headset"></i> <a href="tel:+3249442515">+324-9442-515</a><br /><a href="tel:+3249442999">+324-9442-999</a></li> */}
-                <li><i className="fa-solid fa-envelope"></i> <a href="mailto:salim.elrhilani@gmail.com">salim.elrhilani@gmail.com</a></li>
+                <li><i className="fa-solid fa-envelope"></i> <a href="mailto:info@velitra.com">info@velitra.com</a></li>
               </ul>
             </div>
           </div>

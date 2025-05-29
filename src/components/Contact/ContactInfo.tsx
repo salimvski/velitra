@@ -14,7 +14,7 @@ const ContactInfo: React.FC = () => {
                   <i className="pe-7s-mail"></i>
                 </div>
                 <h3>Email</h3>
-                <p><a href="mailto:salim.elrhilani@gmail.com">salim.elrhilani@gmail.com</a></p>
+                <p><a href="mailto:info@velitra.com">info@velitra.com</a></p>
               </div>
             </div>
 
