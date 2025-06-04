@@ -15,6 +15,9 @@ export const metadata: Metadata = {
   title: "About Velitra – SEO Expertise & Startup Background",
   description:
     "Velitra is a Montreal-based digital agency led by a certified SEO specialist with a background in computer science and startup ventures. Discover who we are.",
+  alternates: {
+    canonical: "https://www.velitra.com/about/",
+  },
 };
 
 export default function Page() {

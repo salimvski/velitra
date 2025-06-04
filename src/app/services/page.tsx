@@ -10,6 +10,9 @@ export const metadata: Metadata = {
   title: "Our Services – SEO & Custom Web Design by Velitra",
   description:
     "Explore Velitra’s professional SEO services and custom web design solutions. We help businesses increase visibility, performance, and growth through strategy and execution.",
+  alternates: {
+    canonical: "https://www.velitra.com/services/",
+  },
 };
 
 export default function Page() {

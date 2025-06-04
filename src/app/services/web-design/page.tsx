@@ -10,6 +10,9 @@ export const metadata: Metadata = {
   title: "Web Design Services – Clean & Responsive Sites | Velitra",
   description:
     "Get a fast, modern, and responsive website built by Velitra. We craft user-centered designs optimized for performance, branding, and SEO.",
+  alternates: {
+    canonical: "https://www.velitra.com/services/web-design/",
+  },
 };
 
 

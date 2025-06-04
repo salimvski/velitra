@@ -10,6 +10,9 @@ export const metadata: Metadata = {
   title: "SEO Services in Montreal – Velitra Digital Agency",
   description:
     "Boost your visibility and grow your traffic with Velitra’s certified SEO services. We offer technical SEO, content strategy, and performance tracking tailored to your business.",
+  alternates: {
+    canonical: "https://www.velitra.com/services/seo/",
+  },
 };
 
 export default function Page() {

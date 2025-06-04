@@ -12,7 +12,10 @@ export const metadata: Metadata = {
   title: "Contact Velitra – Let's Build Your Online Presence",
   description:
     "Get in touch with Velitra, your Montreal-based partner in SEO and web design. Reach out today to schedule a consultation or request a free audit.",
-};
+  alternates: {
+    canonical: "https://www.velitra.com/contact-us/",
+  },
+  };
 
 export default function Page() {
   return (

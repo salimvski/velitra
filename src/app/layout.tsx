@@ -53,6 +53,9 @@ const saira = Saira({
 export const metadata: Metadata = {
   title: "Velitra – SEO & Web Design Services in Montreal",
   description: "Velitra is a digital agency specialized in SEO and custom web design. We help startups and small businesses grow online with clean design, smart strategy, and measurable results.",
+  alternates: {
+    canonical: "https://www.velitra.com/",
+  },
 };
 
 export default function RootLayout({
